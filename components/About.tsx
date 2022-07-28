@@ -27,9 +27,11 @@ export default function About() {
   return <div>
     <div className="w-full md:h-[500px]  p-2 flex items-center py-16">
         <div className="max-w-[1240px] m-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="w-full h-auto flex item-center justify-center p-4 hover:scale-105 ease-in duration-300">
-       <Image src={image1} width={1150} height={1550} className="drop-shadow-lg shadow-gray-600 rounded-lg"  />
-    </div>
+            
+            <div className="w-full h-auto relative group ml-6 pb-6 scale-135 flex item-center justify-center p-4 hover:scale-105 ease-in duration-300">
+                <div className="absolute hidden rounded-lg h-[450px] w-[325px] -inset-5 bg-gradient-to-r from-pink-600 to-purple-600 rouunded-lg blur opacity-75"/>
+                <Image src={image1} width="1325px" height="1450px" objectFit="contain" className="shadow-lg shadow-blue-600 rounded-lg" alt="" />
+                    </div>
     <div className="col-span-2 ml-6">
     <h1 className="text-gray-500 text-6xl font-bold m-6 hover:text-orange-600 text-center">HELLO, I AM JOSEPH</h1>
     <span className="text-gray-500 py-6 tracking-widest text-sm">An aspiring movie content creator turned Developer. After some few days with code,it was love at first sight.
