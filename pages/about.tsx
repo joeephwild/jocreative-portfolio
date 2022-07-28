@@ -43,8 +43,8 @@ export default function about() {
         I am presently based in Lagos, Nigeria</span>
         <p className="text-center py-6 text-gray-500 text-3xl">My tech stack of choice</p>
         <div className="grid grid-cols-3 place-content-center gap-8 py-3">
-            {techStack.map((tech: any) => {
-                return <span className="flex text-gray-500 items-center">
+            {techStack.map((tech: any, id: any) => {
+                return <span key={id} className="flex text-gray-500 items-center">
                     <BiRadioCircle/>
                     {tech?.name}
                 </span>
