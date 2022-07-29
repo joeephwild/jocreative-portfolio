@@ -25,7 +25,7 @@ export default function About() {
         }
     ]
   return <div>
-    <div className="w-full md:h-[500px]  p-2 flex items-center py-16">
+    <div className="w-full md:h-[500px]  p-2 flex items-center py-6">
         <div className="max-w-[1240px] m-auto grid grid-cols-1 md:grid-cols-3 gap-6">
             
             <div className="w-full h-auto relative group ml-6 pb-6 scale-135 flex item-center justify-center p-4 hover:scale-105 ease-in duration-300">

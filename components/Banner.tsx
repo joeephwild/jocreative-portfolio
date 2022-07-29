@@ -3,30 +3,22 @@ import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 
 function Banner() {
-  return <div className="relative w-[100vw] h-[300px] md:h-[500px] px-6">
-  <div  className="md:w-72 mix-blend-multiply absolute top-0 left-[25%] animate-blob w-60 h-60 filter blur-xl opacity-70 z-[10] md:h-72 bg-purple-500 rounded-full"/>
-    <div className="absolute top-0 right-[20%] md:w-72 md:h-72 mix-blend-multiply filter w-60 h-60 blur-xl opacity-70 animate-blob animation-delay-2000 z-10 bg-pink-500 rounded-full"/>
-    <div className="absolute bottom-[8rem] left-[40%] md:w-72 mix-blend-multiply filter w-60 h-60 blur-xl opacity-70 animate-blob animation-delay-2000 md:h-72 z-10 bg-yellow-500 rounded-full"/>
-    <div className="font-bold  text-6xl md:text-8xl flex-col ">
-      <div className="w-full z-50 flex flex-col space-y-4">
-        <span className="text-black ">FRONT <span className="border-b border-3 border-dashed border-white"/> END</span>
-        <span className="md:ml-16 text-center text-black  pt-[15%] md:pt-[2%]">
-        <Typewriter 
-        onInit={(typewriter) => {
-          typewriter
-          .pauseFor(2000)
-          .start();
-        }}
-            options = {{
-              strings: ["WEB", "BLOCKCHAIN"],
-              autoStart: true,
-              loop: true,
-            }}
-             />
-        </span>
-        <span className="md:ml-[20%] text-black  text-center">DEVELOPER</span>
+  return <div className="relative justify-center items-center mt-6 w-[100vw] h-[600px] ">
+  <div  className="md:w-96  absolute top-0 left-[25%] animate-blob w-60 h-60 blur-xl z-[50] md:h-96 bg-purple-500 rounded-full"/>
+    <div className="absolute top-0 right-[20%]  md:w-96 md:h-96  w-60 h-60 blur-xl animate-blob animation-delay-2000 z-50 bg-red-700 rounded-full"/>
+    <div className="absolute bottom-[8rem]  left-[40%] md:w-96  w-60 h-60  blur-xl animate-blob animation-delay-2000 md:h-96 z-10 bg-yellow-500 rounded-full"/>
+    <div className="font-bold text-6xl md:text-9xl flex-col  ">
+      <div className="mx-auto justify-center items-center flex flex-col space-y-4">
+        <span className="text-gray-300 z-50 absolute top-[10%] ">Let's</span>
+        <span className="text-gray-300 z-50 top-[25%] absolute text-center">Build</span>
+        <span className="text-gray-300 z-50 top-[35%] absolute text-center">Something Amazing</span>
       </div> 
     </div>
+      <div className="flex absolute bottom-0">
+        <span className="text-gray-500 flex font-bold text-3xl">
+        Front-End web, blockchain developer, Based in lagos, Nigeria
+        </span>
+      </div>
          
   </div>;
 }
