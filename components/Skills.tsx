@@ -15,7 +15,7 @@ import solidity from '../public/skills/solidity.png';
 export default function Skills() {
   return <div className="w-full mt-3 ">
     <p className="text-gray-500 text-center font-bold text-3xl">MY DREAM TECHSTACK</p>
-    <div className="md:justify-between animate-marquee animation-delay-20000 mt-3 flex space-x-6 overflow-x-hidden">
+    <div className="md:justify-between animate-marquee animation-delay-50000 mt-3 flex space-x-6 overflow-x-hidden">
         <div className=" flex flex-col items-center">
           <Image src={html} width="64px" height="64px" alt="" />
           <h3 className="text-gray-500 font-bold">HTML5</h3>
