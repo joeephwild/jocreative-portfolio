@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Banner from '../components/Banner'
-import About from '../components/About'
-import Header from '../components/Header'
+import About from '../components/About';
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 
@@ -13,7 +12,6 @@ const Home: NextPage = () => {
         <title>JO PORTFOLIO</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-       <Header />
        <main>
         <Banner/>
        <Skills/>

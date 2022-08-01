@@ -1,18 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
-body{
-  font-family: 'Roboto Mono', monospace;
+html, body {
+  font-family: "Open-Sans", sans-serif;
 }
-
-.marquee {
- 
-}
-
 @layer base {
   body{
-    @apply bg-black text-white overflow-x-hidden;
+    @apply overflow-x-hidden;
   }
 }
