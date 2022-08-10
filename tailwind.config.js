@@ -38,6 +38,10 @@ module.exports = {
           },
     },
   },
+    fontFamily: {
+    raleway: ["Noto Serif JP", "sans-serif"]
+   },
       },
+      
   plugins: [],
 };
