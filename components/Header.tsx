@@ -5,12 +5,12 @@ import { FaBars } from 'react-icons/fa'
 
 function Header() {
   return (
-    <div className="flex w-full h-10 flex-col">
-        <div className="bg-white text-xl text-[#1e1e1e] font-bold text-center capitalize">
+    <div className="flex w-[100%]  flex-col">
+        <div className="bg-white w-full text-xl text-[#1e1e1e] font-bold text-center capitalize">
             <span>#stop war in ukraine </span>
                  <span>Save the children</span>
         </div>
-        <div className="flex justify-between items-center px-8">
+        <div className="flex justify-between w-full items-center px-8">
             <span className='text-[#fafafa] text-2xl font-bold'>MoMA</span>
             <div className="md:flex hidden  space-x-5 capitalize text-sm font-bold items-center text-[#fafafa]">
                 <span>Architecture</span>
