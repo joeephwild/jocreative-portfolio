@@ -8,7 +8,6 @@ function Header() {
     <div className="flex flex-col">
         <div className="bg-white text-xl flex text-[#1e1e1e] font-bold text-center capitalize">
             <span>#stop war in ukraine </span>
-                 <Image src={ukr} size={20} height={20} objectFit="contain" alt="" /> 
                  <span>Save the children</span>
         </div>
         <div className="flex justify-between items-center px-8">
