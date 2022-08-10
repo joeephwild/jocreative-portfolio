@@ -5,8 +5,8 @@ import { FaBars } from 'react-icons/fa'
 
 function Header() {
   return (
-    <div className="flex flex-col">
-        <div className="bg-white text-xl flex text-[#1e1e1e] font-bold text-center capitalize">
+    <div className="flex w-full flex-col">
+        <div className="bg-white text-xl text-[#1e1e1e] font-bold text-center capitalize">
             <span>#stop war in ukraine </span>
                  <span>Save the children</span>
         </div>
