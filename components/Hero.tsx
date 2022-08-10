@@ -24,13 +24,15 @@ function Hero() {
           <h1 className=' text-[90px] ml-[40%] md:ml-[0%] lg:mt-[30%] lg:space-y-4 mt-[25%] md:text-[160px] font-thin  md:top-[55%] font-raleway  text-[#fad6a5]'>OF</h1>
           </span>
           </div>
-          <div className="flex justify-center  space-x-8 items-center">
-          <span>
+           {/* last letter content */}
+          <div className="flex text-center ml-[3%] mt-[13%]  md:ml-2 justify-center items-center">
+          <div className='mr-6'>
           <h1 className='text-xs hidden md:block mt-[106%] items-center text-[#fafafa]'>Since 1929</h1>
-          </span>
-          <span>
-          <h1 className='text-center ml-[3%] mt-[23%] lg:mt-[30%] md:mt-[16%] md:ml-2 items-center w-full text-[90px] md:text-[160px] font-thin font-raleway text-[#fad6a5]'>MORDERN ART</h1>
-          </span>
+          </div>
+          <div className="flex">
+          <h1 className='text-[90px] md:text-[160px] font-thin font-raleway text-[#fad6a5]'>MORDERN</h1>
+           <h1 className=' text-[90px] md:text-[160px] font-thin font-raleway text-[#fad6a5]'>ART</h1>
+          </div>
           </div>
       </div>
       <span className='mx-auto '>
