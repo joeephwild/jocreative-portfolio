@@ -1,13 +1,18 @@
 import React from 'react'
+import Image from 'next/image';
+import ukr from '../public/images/ukr.png';
+import { FaBars } from 'react-icons/fa'
 
 function Header() {
   return (
     <div className="flex flex-col">
-        <div className="bg-white text-xs text-[#1e1e1e] font-bold text-center capitalize">
-            <span>#stop war in ukraine  save the children</span>
+        <div className="bg-white text-xl flex text-[#1e1e1e] font-bold text-center capitalize">
+            <span>#stop war in ukraine </span>
+                 <Image src={ukr} size={20} height={20} objectFit="contain" alt="" /> 
+                 <span>Save the children</span>
         </div>
         <div className="flex justify-between items-center px-8">
-            <span className='text-[#fafafa] font-bold'>MoMA</span>
+            <span className='text-[#fafafa] text-2xl font-bold'>MoMA</span>
             <div className="md:flex hidden  space-x-5 capitalize text-sm font-bold items-center text-[#fafafa]">
                 <span>Architecture</span>
                 <span>Design</span>
@@ -16,11 +21,16 @@ function Header() {
                 <span>painting</span>
                 <span>sculpture</span>
             </div>
-            <div className="md:flex hidden space-x-3 text-[#fafafa] items-center">
+            <div className="md:flex hidden space-x-3 text-lg text-[#fafafa] items-center">
                 <button className='border-b-2 border-[#a1806b] border-bold'>Buy a ticket</button>
                 <button className='border-b-2 border-[#a1806b] border-bold'>Become a member</button>
             </div>
+             {/* mobile menu layout */}
+        <div className='text-[#fafafa] mt-3 border-[#a1806b] border-2 border-bold p-5 md:hidden block'>
+            <FaBars size={35} />
         </div>
+        </div>
+       
     </div>
   )
 }
