@@ -30,7 +30,7 @@ const About = () => {
         </div>
 
         <div className='relative h-[600px] w-full '>
-          <Image src={image} layout="fill" objectFit='cover' alt="" />
+          <Image className="w-screen h-[600px]" src={image} layout="fill" objectFit='cover' alt="" />
         </div>
     </div>
 
