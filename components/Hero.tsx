@@ -49,7 +49,7 @@ function Hero() {
 
       <motion.div variants={parentVariant} className="">
           <div className=" space-x-28">
-          <span className="md:text-8xl pl-[30%] lg:pl-[10%] flex items-center text-7xl font-thin font-raleway">
+          <span className="md:text-8xl pl-[20%] lg:pl-[10%] flex items-center text-7xl font-thin font-raleway">
             <span className="text-xs text-[#fafafa] mr-28 pt-16 text-start hidden md:block">since 1929 </span>MORDERN ART</span>
         </div>
       </motion.div>
