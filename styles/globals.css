@@ -5,6 +5,11 @@
 
 
 body {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 100vh;
  background-color: #1e1e1e;
  color: #a1806b;
 }
