@@ -5,13 +5,13 @@ import { FaBars } from 'react-icons/fa'
 
 function Header() {
   return (
-    <div className="flex w-full flex-col">
-        <div className='w-full bg-[#fafafa] flex justify-center'>
+    <div className="flex flex-col">
+        <div className='bg-[#fafafa] flex justify-center'>
             <span>#Stop the war</span>
             <span>Save the children</span>
         </div>
         {/* bottom navigation */}
-       <div className='w-full flex justify-between items-center p-4 text-[#fafafa]'>
+       <div className='flex justify-between items-center p-4 text-[#fafafa]'>
         <span className="text-2xl font-bold">MoMA</span>
         {/* middle section */}
             <ul  className='cursor-pointer hidden lg:inline-flex text-[#fafafa] space-x-6'>
